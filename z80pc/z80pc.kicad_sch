@@ -1,4 +1,4 @@
-(kicad_sch (version 20211123) (generator eeschema)
+(kicad_sch (version 20230121) (generator eeschema)
 
   (uuid 153d2715-ae43-47de-9022-3a4a786cf7e2)
 
@@ -14,34 +14,23 @@
 
 
   (sheet (at 92.71 67.31) (size 13.97 29.21) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
     (uuid 9d001969-9d62-46e9-8514-93cb2657c624)
-    (property "Sheet name" "MPU" (id 0) (at 92.71 66.5984 0)
+    (property "Sheetname" "MPU" (at 92.71 66.5984 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheet file" "mpu.kicad_sch" (id 1) (at 92.71 97.1046 0)
+    (property "Sheetfile" "mpu.kicad_sch" (at 92.71 97.1046 0)
       (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "z80pc"
+        (path "/153d2715-ae43-47de-9022-3a4a786cf7e2" (page "2"))
+      )
     )
   )
 
   (sheet_instances
     (path "/" (page "1"))
-    (path "/9d001969-9d62-46e9-8514-93cb2657c624" (page "2"))
-  )
-
-  (symbol_instances
-    (path "/9d001969-9d62-46e9-8514-93cb2657c624/6672daf1-4fa9-4ecb-a0ed-8e96a41064ad"
-      (reference "U?") (unit 1) (value "AS6C4008-55PIN") (footprint "db-thparts:DIP-32-600MIL")
-    )
-    (path "/9d001969-9d62-46e9-8514-93cb2657c624/a6f2a590-8906-4b68-918c-893a68e56b6d"
-      (reference "U?") (unit 1) (value "Z84C0010PEG") (footprint "db-thparts:DIP-40-600MIL")
-    )
-    (path "/9d001969-9d62-46e9-8514-93cb2657c624/f41e4675-7072-49e8-9a0c-f2521d7dcf22"
-      (reference "U?") (unit 1) (value "SN74HC138N") (footprint "db-thparts:DIP-16-300MIL")
-    )
-    (path "/9d001969-9d62-46e9-8514-93cb2657c624/0e801bea-daa8-4f5c-969d-2a8733fe3525"
-      (reference "U?") (unit 2) (value "SN74HC138N") (footprint "db-thparts:DIP-16-300MIL")
-    )
   )
 )
