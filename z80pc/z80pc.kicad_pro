@@ -344,6 +344,10 @@
     [
       "b279f522-6444-43a6-9e2d-6b6dc8d58a94",
       "Memory"
+    ],
+    [
+      "edbb6c22-3347-4097-9242-67a3f0647a3c",
+      "IO Ports"
     ]
   ],
   "text_variables": {}
